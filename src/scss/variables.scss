@@ -1,0 +1,24 @@
+@use 'fonts.scss';
+
+$font-family: "monospace";
+$font-size: 24px;
+
+$container-width: 1200px;
+
+$bp-xl: $container-width + 15.98 + "px";
+$bp-md: 991.98px;
+$bp-sm: 767.98px;
+$bp-xs: 479.98px;
+$bp-xxs: 319.98px;
+
+$speed: 250ms;
+
+$color-primary: #4d815b;
+$color-secondary: #814D73;
+$color-dark: #16321c;
+$color-light: #a5dbb4;
+$color-text: #212121;
+$color-container-bg: #D4F0DC;
+
+$color-scheme-default: $color-text, $color-container-bg;
+$color-scheme-dark: $color-container-bg, $color-dark;

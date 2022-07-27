@@ -1,0 +1,22 @@
+@use 'mixins.scss' as *;
+@use 'variables.scss' as *;
+
+@use 'fonts.scss';
+
+@use 'reset.scss';
+@use 'header.scss';
+@use 'index.scss';
+@use 'footer.scss';
+
+
+*{
+    box-sizing: border-box;
+    font-family: $font-family;
+    font-size: $font-size;
+    @include color-scheme($color-scheme-default...);
+}
+
+.container{
+    max-width: $container-width;
+    margin: 0 auto;
+}
