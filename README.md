@@ -13,6 +13,10 @@
 
 and other useful Gulp Plugins for work.
 
+## Before use, Don't forget to Download Dependencies with the Command:
+
+**npm i**
+
 ## To Start Working
 1. Download Fonts or Import Them.
 2. Run command:
